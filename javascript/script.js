@@ -2,7 +2,7 @@ function defaultColor(){
     document.bgColor = '#000000'
 }
 
-function backColor1() {
+function backColor1(){
     document.bgColor = '#c2ac31'
 }
 
