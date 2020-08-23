@@ -13,3 +13,7 @@ function backColor2(){
 function backColor3(){
     document.bgColor = '#ec2628'
 }
+
+function devOps() {
+    varWindow = window.open ('html/devops.html')
+}

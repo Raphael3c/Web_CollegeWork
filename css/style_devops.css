@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#devs{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+
+.rapha{ 
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+    border-radius: 50%;  
+}
+
+.victor{ 
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    border-radius: 50%;  
+}
+
+#rapha{ 
+    margin-left: 445px;
+}
+
+#victor{
+    margin-left: 230px;
+}
+
