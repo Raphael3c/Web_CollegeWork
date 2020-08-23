@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+/* Começo da estilização dos botões */
+
+#buttons{
+    position: relative;
+    margin-left: 85%;
+    margin-top: 1%;
+}
+
+#button1{
+    background-color: #bdaa2e;
+    color: #d3d3d3;
+}
+
+#button2{
+    background-color: #1c2424;
+    color: #d3d3d3;
+}
+
+#button3{
+    background-color: #e6272d;
+    color: #d3d3d3;
+}
+
+/* Fim estilização botões */
