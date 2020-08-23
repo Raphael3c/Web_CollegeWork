@@ -1,15 +1,15 @@
-function changeColor(){
+function defaultColor(){
     document.bgColor = '#000000'
 }
 
-function backCollor1() {
+function backColor1() {
     document.bgColor = '#c2ac31'
 }
 
-function backCollor2(){
+function backColor2(){
     document.bgColor = '#000000'
 }
 
-function backCollor3(){
+function backColor3(){
     document.bgColor = '#ec2628'
 }
