@@ -1,4 +1,8 @@
- function backCollor1() {
+function changeColor(){
+    document.bgColor = '#000000'
+}
+
+function backCollor1() {
     document.bgColor = '#c2ac31'
 }
 
