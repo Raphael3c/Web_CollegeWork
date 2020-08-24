@@ -27,8 +27,6 @@ body{
 }
 
 #mensage{
-    position: relative;
-    display: flex;
     justify-content: center;
     background-color: white;
     padding: 200px;
@@ -41,6 +39,7 @@ body{
     position: relative;
     margin-top: 70px;
     margin-left: 92%;
+    bottom: 16px;
     background-color: black;
     color: white;
 }
@@ -68,3 +67,15 @@ button:active{
 }
 
 /* Fim estilização botões */
+
+/* Estilização dos balões de texto*/
+
+#adjust{
+    margin-bottom: 10px;
+}
+
+#buttonSubmit{
+    position: relative;
+    top: 20px;
+    left: 430px;
+}

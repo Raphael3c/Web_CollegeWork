@@ -13,18 +13,22 @@
         <button id="button3" onClick ="backColor3()">Branco</button>
     </div>
 
-    <div id="mensage">
-        <p>Nome:</p> 
-        <input type="text">
+    <button id="button5" onClick ="ccc()">Roxo</button>
 
-        <p>Mensagem:</p> 
-        <input type="text">
+    <form name="form" onSubmit="registerMensage()" id="mensage">
 
-        <button id="buttonSubmit" onClick ="" >Enviar</button>
-    </div>
+        <label for="">Nome:</label>
+        <input type="text" name="name" placeholder="Seu Nome" size="68" id="adjust">
+
+        <label for="">Mensagem:</label>
+        <input type="text" size="68" name="mensage" placeholder="Digite Sua Mensagem">
+
+        <button id="buttonSubmit" type="submit">Enviar</button>
+
+    </form>
 
     <div id="credit">
-        <button id="buttonCredit" onclick="devOps()">DevOps</button>
+        <button id="buttonCredit" onClick="devOps()">DevOps</button>
     </div>
 
     <script type="text/javascript" src="javascript/script.js"></script>
