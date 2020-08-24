@@ -12,18 +12,18 @@ body{
 }
 
 #button1{
-    background-color: #bdaa2e;
+    background-color: #000000;
     color: white;
 }
 
 #button2{
-    background-color: #1c2424;
+    background-color: #9248ff;
     color: white;
 }
 
 #button3{
-    background-color: #e6272d;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 #buttonCredit{

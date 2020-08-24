@@ -2,7 +2,7 @@ body{
     margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
-    background-color: #5f316f;
+    background-color: #9248ff;
     font-family: 'Alata', sans-serif;
 }
 
@@ -13,7 +13,7 @@ h1 {
     background-color: white;
     margin: 50px 300px 0px 300px;
     border-radius: 10px;
-    color: #5f316f;
+    color: #9248ff;
     box-shadow: 1.6px 1.6px 0 1.6px #cdcdcd;
 }
 
@@ -63,7 +63,7 @@ h1 {
 
 a{
     margin-right: 10px;
-    background-color: #9400d3;
+    background-color: #9248ff;
     padding: 5px 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 0 2px #C8A2C8;

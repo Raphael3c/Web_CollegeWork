@@ -1,17 +1,17 @@
 function defaultColor(){
-    document.bgColor = '#000000'
+    document.bgColor = '#9248ff'
 }
 
 function backColor1(){
-    document.bgColor = '#c2ac31'
-}
-
-function backColor2(){
     document.bgColor = '#000000'
 }
 
+function backColor2(){
+    document.bgColor = '#9248ff'
+}
+
 function backColor3(){
-    document.bgColor = '#ec2628'
+    document.bgColor = '#ffffff'
 }
 
 function devOps() {
