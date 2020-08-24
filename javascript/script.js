@@ -21,7 +21,20 @@ function devOps() {
     varWindow = window.open('html/devops.html', 'popup')
 }
 
-
 function registerMensage(){
+    var data = new Array()
 
+    if (localStorage.hasOwnProperty("data")) {
+        data = JSON.parse(localStorage.getItem("data"))
+    }
+
+    var name = document.form.name.value
+    var mensage = document.form.mensage.value
+
+    data.push({
+        name: name,
+        mensage: mensage
+    })
+
+    localStorage.setItem("data", JSON.stringify(data))
 }
