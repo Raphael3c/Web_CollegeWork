@@ -7,7 +7,7 @@ body{
 
 #buttons{
     position: relative;
-    margin-left: 75%;
+    margin-left: 79%;
     margin-top: 1%;
 }
 
@@ -26,11 +26,21 @@ body{
     color: rgb(0, 0, 0);
 }
 
+#mensage{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 200px;
+    margin: 40px 400px 0px 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 5px #cdcdcd;  
+}
+
 #buttonCredit{
     position: relative;
-    margin-top: 550px;
-    margin-left: 1245px;
-
+    margin-top: 70px;
+    margin-left: 92%;
     background-color: black;
     color: white;
 }

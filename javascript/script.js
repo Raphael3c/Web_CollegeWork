@@ -15,5 +15,5 @@ function backColor3(){
 }
 
 function devOps() {
-    varWindow = window.open ('html/devops.html')
+    varWindow = window.open('html/devops.html', 'popup')
 }
