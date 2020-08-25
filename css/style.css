@@ -4,8 +4,6 @@ body{
     overflow-y: hidden;
 }
 
-/* Começo da estilização dos botões */
-
 #buttons{
     position: relative;
     margin-left: 79%;
@@ -53,7 +51,7 @@ body{
 
 button{
     margin-right: 10px;
-    background-color: #eb5757;
+    background-color: #000000;
     padding: 5px 10px;
     border: none;
     border-radius: 10px;
@@ -63,7 +61,7 @@ button{
     border-color: #778899;
 
     text-decoration: none;
-    color: black;
+    color:white;
     font-weight: bold;
     font-size: 20px;
 }
@@ -72,10 +70,6 @@ button:active{
     box-shadow: 0 0 0 #778899, inset 3px 3px 3px #778899;
     transform: translate(4px, 4px);
 }
-
-/* Fim estilização botões */
-
-/* Estilização dos balões de texto*/
 
 #buttonSubmit{
     position: relative;
@@ -96,6 +90,17 @@ button:active{
     padding-bottom: 10px;
 }
 
-#mensageBoard_G::-webkit-scrollbar{
-    display: none;
+#mensage{
+    position: relative;
+    right: 35px;
+}
+
+#name{
+    position: relative;
+    right: 35px;
+}
+
+#mensages label{
+    position: relative;
+    right: 35px
 }

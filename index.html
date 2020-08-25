@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    
-    <title>Web College Work</title>
-</head>
-<body id="body" onload = "defaultColor()">
-    <div id="buttons">
-        <button id="button1" onClick ="backColor1()">Preto</button>
-        <button id="button2" onClick ="backColor2()">Roxo</button>
-        <button id="button3" onClick ="backColor3()">Branco</button>
-    </div>
-    
-    <div id = "mensages" >
-        <div>
-
-            <label for="nome">Nome:</label>
-            <input type="text" name="name" id="name" placeholder="Seu Nome" size="68" maxlength="10">
-            <br><br>
-            <label id = "labelMensage" for="mensage">Mensagem:</label>
-            <input type="text" size="68" name="mensage" id = "mensage" placeholder="Digite Sua Mensagem" maxlength="12">
-
-            <button id="buttonSubmit" onclick="registerMensage()" onclick="scroll()">Enviar</button>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        
+        <title>Web College Work</title>
+    </head>
+    <body id="body" onload = "defaultColor()">
+        <div id="buttons">
+            <button id="button1" onClick ="backColor1()">Preto</button>
+            <button id="button2" onClick ="backColor2()">Roxo</button>
+            <button id="button3" onClick ="backColor3()">Branco</button>
         </div>
-    </div>
+        
+        <div id = "mensages" >
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Seu Nome" size="75" maxlength="10">
+                <br><br>
+                <label id = "labelMensage" for="mensage">Mensagem:</label>
+                <input type="text" size="75" name="mensage" id = "mensage" placeholder="Digite Sua Mensagem" maxlength="20">
+                <button id="buttonSubmit" onclick="registerMensage()">Enviar</button>
+            </div>
+        </div>
 
-    <div id = mensageBoard_G>   
-        <div id="mensageBoard"></div>
-    </div>
+        <div id = mensageBoard_G>   
+            <div id="mensageBoard"></div>
+        </div>
 
-    <div id="credit">
-        <button id="buttonCredit" onClick="devOps()">DevOps</button>
-    </div>
+        <div id="credit">
+            <button id="buttonCredit" onClick="devOps()">DevOps</button>
+        </div>
 
-    <script type="text/javascript" src="javascript/script.js"></script>
-</body>
+        <script type="text/javascript" src="javascript/script.js"></script>
+    </body>
 </html>
