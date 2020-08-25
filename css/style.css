@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Alata', sans-serif;
+    overflow-y: hidden;
 }
 
 /* Começo da estilização dos botões */
@@ -26,7 +27,7 @@ body{
     color: rgb(0, 0, 0);
 }
 
-#mensage{
+#mensages{
     justify-content: center;
     background-color: white;
     padding: 200px;
@@ -35,11 +36,17 @@ body{
     box-shadow: 5px 5px 0 5px #cdcdcd;  
 }
 
+#mensages div{
+    position: relative;
+    bottom: 100px;
+}
+
 #buttonCredit{
     position: relative;
     margin-top: 70px;
     margin-left: 92%;
-    bottom: 16px;
+    right: 2px;
+    bottom: 280px;
     background-color: black;
     color: white;
 }
@@ -70,12 +77,25 @@ button:active{
 
 /* Estilização dos balões de texto*/
 
-#adjust{
-    margin-bottom: 10px;
-}
-
 #buttonSubmit{
     position: relative;
     top: 20px;
     left: 430px;
+}
+
+#mensageBoard_G{
+    position: relative;
+    bottom: 250px;
+    left: 215px;
+    width: 580px;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #cfcfc4;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+#mensageBoard_G::-webkit-scrollbar{
+    display: none;
 }

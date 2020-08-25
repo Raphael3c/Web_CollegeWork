@@ -12,20 +12,23 @@
         <button id="button2" onClick ="backColor2()">Roxo</button>
         <button id="button3" onClick ="backColor3()">Branco</button>
     </div>
+    
+    <div id = "mensages" >
+        <div>
 
-    <button id="button5" onClick ="ccc()">Roxo</button>
+            <label for="nome">Nome:</label>
+            <input type="text" name="name" id="name" placeholder="Seu Nome" size="68" maxlength="10">
+            <br><br>
+            <label id = "labelMensage" for="mensage">Mensagem:</label>
+            <input type="text" size="68" name="mensage" id = "mensage" placeholder="Digite Sua Mensagem" maxlength="12">
 
-    <form name="form" onSubmit="registerMensage()" id="mensage">
+            <button id="buttonSubmit" onclick="registerMensage()" onclick="scroll()">Enviar</button>
+        </div>
+    </div>
 
-        <label for="">Nome:</label>
-        <input type="text" name="name" placeholder="Seu Nome" size="68" id="adjust">
-
-        <label for="">Mensagem:</label>
-        <input type="text" size="68" name="mensage" placeholder="Digite Sua Mensagem">
-
-        <button id="buttonSubmit" type="submit">Enviar</button>
-
-    </form>
+    <div id = mensageBoard_G>   
+        <div id="mensageBoard"></div>
+    </div>
 
     <div id="credit">
         <button id="buttonCredit" onClick="devOps()">DevOps</button>
