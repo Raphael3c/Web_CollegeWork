@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Alata', sans-serif;
+    width: 1349px;
     overflow-y: hidden;
 }
 
@@ -11,27 +12,27 @@ body{
 }
 
 #button1{
-    background-color: #000000;
+    background-color: #3c3c3c;
     color: white;
 }
 
 #button2{
-    background-color: #9248ff;
+    background-color: #00ff75;
     color: white;
 }
 
 #button3{
-    background-color: #ffffff;
+    background-color: #e2e7e4;
     color: rgb(0, 0, 0);
 }
 
 #mensages{
     justify-content: center;
-    background-color: white;
+    background-color: #103622;
     padding: 200px;
     margin: 40px 400px 0px 50px;
     border-radius: 10px;
-    box-shadow: 5px 5px 0 5px #cdcdcd;  
+    box-shadow: 5px 5px 0 5px #062715;  
 }
 
 #mensages div{
@@ -75,6 +76,7 @@ button:active{
     position: relative;
     top: 20px;
     left: 430px;
+    background-color: #3c3c3c;
 }
 
 #mensageBoard_G{
@@ -102,5 +104,6 @@ button:active{
 
 #mensages label{
     position: relative;
-    right: 35px
+    right: 35px;
+    color: white
 }

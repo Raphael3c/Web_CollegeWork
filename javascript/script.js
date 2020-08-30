@@ -1,24 +1,25 @@
 function defaultColor(){
-    document.bgColor = '#9248ff'
+    document.bgColor = '#1b1c1c'
     document.getElementById("buttonCredit").style.backgroundColor = "#ffffff"
     document.getElementById("buttonCredit").style.color = "#000000"
+    window.resizeTo(1366, 768);
 }
 
 function backColor1(){
-    document.bgColor = '#000000'
-    document.getElementById("buttonCredit").style.backgroundColor = "#9248ff"
+    document.bgColor = '#3c3c3c'
+    document.getElementById("buttonCredit").style.backgroundColor = "#00ff75"
     document.getElementById("buttonCredit").style.color = "#ffffff"
 }
 
 function backColor2(){
-    document.bgColor = '#9248ff'
-    document.getElementById("buttonCredit").style.backgroundColor = "#ffffff"
-    document.getElementById("buttonCredit").style.color = "#000000"
+    document.bgColor = '#00ff75'
+    document.getElementById("buttonCredit").style.backgroundColor = "#e2e7e4"
+    document.getElementById("buttonCredit").style.color = "#0e0e0e"
 }
 
 function backColor3(){
-    document.bgColor = '#ffffff'
-    document.getElementById("buttonCredit").style.backgroundColor = "#000000"
+    document.bgColor = '#e2e7e4'
+    document.getElementById("buttonCredit").style.backgroundColor = "#3c3c3c"
     document.getElementById("buttonCredit").style.color = "#ffffff"
 }
 
@@ -64,5 +65,6 @@ function registerMensage(){
         button.style.position = "relative"
         button.style.bottom = "17px"
         button.style.left = "450px"
+        button.style.backgroundColor = "#3c3c3c"
     }
 }
